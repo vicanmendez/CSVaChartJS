@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Gráficas con HTML5 y ChartJS </title>
+	<meta charset="utf-8"> 
+	<script src="js/jquery.3.4.js"> </script>
+	<script src="js/jquery.json.js"> </script>
+	<script src="js/ChartJS.js"> </script>
+	<script src="js/utils.js"> </script>
+	<script src="js/main.js"> </script>
+
+</head>
+<body>
+<h2> Elegir tipo de gráfico </h2>
+<select name="tipo" id="tipo">
+<option value="bar"> Barras </option>
+<option value="line"> Líneas </option>
+<option value="doughnut"> Rosquilla </option>
+	</select>
+<!-- Elemento para dibujar la gráfica -->
+<div id="container" style="width: 75%;">
+		<canvas id="canvas"></canvas>
+	</div>
+	<!-- De momento ocultamos los botones que por default ofrece la librería 
+
+	<button id="randomizeData">Randomize Data</button>
+	<button id="addDataset">Add Dataset</button>
+	<button id="removeDataset">Remove Dataset</button>
+	<button id="addData">Add Data</button>
+	<button id="removeData">Remove Data</button>
+
+	-->
+
+</body>
+</html>
